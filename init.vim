@@ -43,21 +43,18 @@ set termguicolors
 filetype plugin indent on
 
 " tabs 
-set tabstop=8
-set shiftwidth=8
+set tabstop=4
+set shiftwidth=4
 set smarttab
 set expandtab
 set smartindent
 
 " js
-autocmd FileType javascript setlocal shiftwidth=4 tabstop=4
-autocmd FileType javascriptreact setlocal shiftwidth=4 tabstop=4
-autocmd FileType typescript setlocal shiftwidth=4 tabstop=4
-autocmd FileType typescriptreact setlocal shiftwidth=4 tabstop=4
+autocmd FileType php setlocal shiftwidth=8 tabstop=8
 
 " coc.nvim
 if &rtp =~ 'coc.nvim'
-        let b:coc_suggest_disable = 1
+        let b:coc_suggest_disable = 0
         inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 endif
 
