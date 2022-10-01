@@ -12,7 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 "Plugin 'flazz/vim-colorschemes'
 "Plugin 'xolox/vim-misc'
 "Plugin 'xolox/vim-colorscheme-switcher'
-Plugin 'SergeySpirin/vim'
+Plugin 'SergeySpirin/vim-colors'
 
 " airline
 Plugin 'vim-airline/vim-airline'
