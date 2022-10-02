@@ -29,6 +29,10 @@ endif
 " pack in brackets or tags
 Plugin 'tpope/vim-surround'
 
+" nerdtree
+Plugin 'preservim/nerdtree'
+Plugin 'ryanoasis/vim-devicons'
+
 call vundle#end()
 
 set mouse=a
@@ -91,6 +95,9 @@ colorscheme espiares
 inoremap jk <esc>
 
 nnoremap ,<space> :nohl
+
+" nerdtree hk
+nnoremap <C-t> :NERDTreeToggle<CR>
 
 " tabs hotkeys 
 nnoremap ex :Explore<CR>  
