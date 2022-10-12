@@ -33,6 +33,9 @@ Plugin 'tpope/vim-surround'
 Plugin 'preservim/nerdtree'
 Plugin 'ryanoasis/vim-devicons'
 
+" autocomment
+Plugin 'KarimElghamry/vim-auto-comment'
+
 call vundle#end()
 
 set mouse=a
@@ -88,6 +91,16 @@ let g:airline_skip_empty_sections = 1
 
 let g:airline_section_x = ""
 let g:airline_section_z = "%3p%% %l:%c"
+
+" autocomment 
+let g:default_inline_comment = '//'
+let g:default_block_comment = '/*'
+
+vnoremap <C-Bslash> :AutoInlineComment<CR>
+nnoremap <C-Bslash> :AutoInlineComment<CR>
+
+vnoremap <silent><C-c-o> :AutoBlockComment<CR>
+nnoremap <silent><C-c-b> :AutoBlockComment<CR>
 
 " colorscheme
 colorscheme espiares
