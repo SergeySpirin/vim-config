@@ -36,6 +36,10 @@ Plugin 'ryanoasis/vim-devicons'
 " autocomment
 Plugin 'KarimElghamry/vim-auto-comment'
 
+" Dart & Flutter
+Plugin 'dart-lang/dart-vim-plugin'
+Plugin 'thosakwe/vim-flutter'
+
 call vundle#end()
 
 set mouse=a
