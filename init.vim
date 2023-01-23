@@ -60,7 +60,7 @@ set smarttab
 set expandtab
 set smartindent
 
-" js
+" php
 autocmd FileType php setlocal shiftwidth=8 tabstop=8
 
 " coc.nvim
@@ -111,7 +111,7 @@ colorscheme espiares
 
 inoremap jk <esc>
 
-nnoremap ,<space> :nohl
+nnoremap ,<space> :nohl<CR>
 
 " nerdtree hk
 nnoremap <C-t> :NERDTreeToggle<CR>
