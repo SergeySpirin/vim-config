@@ -60,9 +60,6 @@ set smarttab
 set expandtab
 set smartindent
 
-" php
-autocmd FileType php setlocal shiftwidth=8 tabstop=8
-
 " coc.nvim
 if &rtp =~ 'coc.nvim'
         let b:coc_suggest_disable = 0
